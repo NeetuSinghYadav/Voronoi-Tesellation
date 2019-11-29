@@ -43,8 +43,9 @@ ax.scatter(CA_Coords[...,0], CA_Coords[...,1], CA_Coords[...,2], c= 'k', label =
 
 ax.legend()	
 ax.set_xlim3d(CA_Coords[...,0].min(), CA_Coords[...,0].max())
-ax.set_xlim3d(CA_Coords[...,1].min(), CA_Coords[...,1].max())
-ax.set_xlim3d(CA_Coords[...,2].min(), CA_Coords[...,2].max())
+ax.set_ylim3d(CA_Coords[...,1].min(), CA_Coords[...,1].max())
+ax.set_zlim3d(CA_Coords[...,2].min(), CA_Coords[...,2].max())
+
 
 
 
